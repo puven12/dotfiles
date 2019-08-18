@@ -123,14 +123,14 @@ set $inactive-bg-color	#4c7899
 # window colors
 client.focused $bg-color $bg-color $bg-color $bg-color
 client.unfocused $inactive-bg-color $inactive-bg-color $inactive-bg-color $inactive-bg-color
-#bar {
-#        status_command i3blocks -c ~/.config/i3/i3blocks.conf
-#				position top
-#				colors {
-#								background #000d1a
-#								inactive_workspace #000d1a #000d1a #888888
-#				}
-#}
+bar {
+        status_command i3blocks -c ~/.config/i3/i3blocks.conf
+		#		position top
+				colors {
+								background #000d1a
+								inactive_workspace #000d1a #000d1a #888888
+				}
+}
 
 # Setting Wallpaper
 exec_always feh --bg-scale /home/puven/Pictures/Wallpapers/skulls.png

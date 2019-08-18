@@ -26,306 +26,306 @@ l12
 r2
 
 # Left window history (oldest to newest):
-d/home/puven
-	.config
-4
-d/home/puven/.config
-	vifm
+d/home/puven/Documents/Github
+	vifm-colors
+14
+d/home/puven/Documents/Github/vifm-colors
+	ph.vifm
+20
+d/dev
+	network_throughput
 25
-d/home/puven/.config/vifm
-	colors
+d/home/puven/Documents/Bash/BIC/test_Directory
+	test_socket
+7
+d/home/puven/Documents
+	pendrive
+9
+d/home/puven/Documents/pendrive
+	new
 1
-d/home/puven/.config/vifm/colors
-	iceberg.vi
-2
-d/home/puven
-	Music
-33
-d/home/puven/Music
-	Mac Quayle - Emmy Nominated Score - Mr. Robot '1.0_3-fucksociety.mp3'-eiEiyTpK1Vc.mp4
-16
-d/home/puven
+d/home/puven/Documents/pendrive/new
 	..
 0
+d/home/puven/Documents/pendrive
+	print
+2
+d/home/puven/Documents/pendrive/print
+	..
+0
+d/home/puven/Documents/pendrive
+	SCAN
+3
+d/home/puven/Documents/pendrive/SCAN
+	..
+0
+d/home/puven/Documents/pendrive
+	THIS
+4
+d/home/puven/Documents/pendrive/THIS
+	..
+0
+d/home/puven/Documents/pendrive
+	Worksheet 9.docx
+27
+d/home/puven/Documents
+	Studienkolleg
+11
+d/home/puven/Documents/Studienkolleg
+	..
+0
+d/home/puven/Documents
+	Studienkolleg
+11
+d/home/puven
+	sc-im
+31
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	The New York Times Best Sellers - March 24, 2019 [ePub]
+9
+d/home/puven
+	Documents
+20
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	Bash
+1
+d/home/puven/Downloads
+	WhatsApp Image 2019-02-03 at 14.56.55.jpeg
+31
+d/home/puven/Documents/Github/GitCooking/All
+	Puttanesca2.jpeg
+2
+d/home/puven/Documents/Github/GitCooking/All/SpaghettiPuttanesca/img
+	Puttanesca1.jpeg
+1
+d/home/puven/Documents
+	Studienkolleg
+8
+d/home/puven/Documents/Studienkolleg
+	Mechanik
+2
+d/home/puven/Documents/Studienkolleg/Mechanik
+	Aufgabensammlung_Technische_Mechanik_[Boege].pdf
+25
+d/home/puven/Documents
+	Studienkolleg
+8
+d/home/puven/Documents/Studienkolleg
+	Mechanik
+2
+d/home/puven/Documents/Studienkolleg/Mechanik
+	17_techmech_haftung_reibung_beamer.pdf
+17
+d/home/puven/Documents/Learn
+	..
+0
+d/home/puven/Documents
+	Bash
+1
+d/home/puven/Documents/Bash
+	..
+0
+d/home/puven/Documents
+	eBooks
+2
+d/home/puven/Documents/eBooks
+	..
+0
+d/home/puven/Documents
+	Github
+3
+d/home/puven/Documents/Github
+	bash
+1
+d/home/puven/Documents/Github/bash
+	debugging.bash
+6
+d/home/puven/Downloads
+	Informatik.zip
+4
+d/home/puven
+	Downloads
+21
+d/home/puven/Downloads
+	Informatik.zip
+4
+d/home/puven
+	Documents
+20
+d/home/puven/Documents
+	Studienkolleg
+8
+d/home/puven/Documents/Studienkolleg
+	Infomatik
+2
+d/home/puven/Documents/Studienkolleg/Infomatik
+	ablaufplan_algorithmen.pdf
+2
+d/home/puven/.steam
+	.steam
+1
+d/home/puven/.steam/.steam
+	..
+0
+d/home/puven/.steam
+	.steam
+1
+d/home/puven/.steam/.steam
+	steam
+26
+d/home/puven/.steam/.steam/steam
+	steamapps
+8
+d/home/puven/.steam/.steam/steam/steamapps
+	workshop
+6
+d/home/puven/.steam/.steam/steam/steamapps/workshop
+	..
+0
+d/home/puven/.steam/.steam/steam/steamapps
+	common
+1
+d/home/puven/.steam/.steam/steam/steamapps/common
+	insurgency2
+2
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2
+	insurgency
+4
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency
+	insurgency
+9
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency
+	..
+0
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency
+	custom
+4
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/custom
+	workshop
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/custom/workshop
+	sound
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/custom
+	workshop
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency
+	insurgency
+9
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency
+	custom
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency/custom
+	workshop
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency/custom/workshop
+	..
+0
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency/custom
+	workshop
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency
+	custom
+1
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency
+	insurgency
+9
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency
+	..
+0
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency
+	insurgency_models.vpk.sound.cache
+4
+d/home/puven/.steam/.steam/steam/steamapps/common/insurgency2
+	insurgency
+4
+d/home/puven/.steam/.steam/steam/steamapps/common
+	insurgency2
+2
+d/home/puven/.steam/.steam/steam/steamapps
+	common
+1
+d/home/puven/.steam/.steam/steam
+	steamapps
+8
+d/home/puven/.steam/.steam
+	steam
+26
+d/home/puven/.steam
+	.steam
+1
+d/home/puven
+	.steam
+4
 d/home
 	puven
 1
 d/home/puven
-	diviyah_js52.js
-33
-d/home/puven/.config
-	vifm
-25
-d/home/puven/.config/vifm
-	colors
-1
-d/home/puven/.config/vifm/colors
-	iceberg.vi
-2
-d/home/puven/Documents/Github
-	XtoHextoX
-9
-d/home/puven/Documents/Github/XtoHextoX
-	..
-0
-d/home/puven/Documents/Github
-	XtoHextoX
-9
-d/home/puven/Documents/Github/XtoHextoX
-	..
-0
-d/home/puven/Documents/Github
-	XtoHextoX
-9
-d/home/puven/Documents/Github/XtoHextoX
-	..
-0
-d/home/puven/Documents/Github
-	XtoHextoX
-9
-d/home/puven/Documents/Github/XtoHextoX
-	doc
-1
-d/home/puven/Documents/Github/XtoHextoX/doc
-	..
-0
-d/home/puven/Documents/Github/XtoHextoX
-	plugin
-2
-d/home/puven/Documents/Github/XtoHextoX/plugin
-	..
-0
-d/home/puven/Documents/Github/XtoHextoX
-	plugin
-2
-d/home/puven/Documents/Github/XtoHextoX/plugin
-	..
-0
-d/home/puven/Documents/Github/XtoHextoX
-	plugin
-2
-d/home/puven/Documents/Github
-	XtoHextoX
-9
-d/home/puven/Documents
-	Github
-2
-d/home/puven
-	.vim
-32
-d/home/puven/.vim
-	colors
-3
-d/home/puven/.vim/colors
-	..
-0
-d/home/puven/.vim
-	colors
-3
-d/home/puven/.vim/colors
-	iceberg.vim
-1
+	Downloads
+23
 d/home/puven/Downloads
-	skulls_1440x900.png
-30
-d/home/puven
-	Pictures
-32
-d/home/puven/Pictures
-	Wallpapers
-1
-d/home/puven/Pictures/Wallpapers
-	spitfire.jpeg
-6
-d/home/puven/Pictures
-	Wallpapers
-1
-d/home/puven/Pictures/Wallpapers
-	skulls.png
-5
-d/home/puven/Pictures
-	Wallpapers
-1
-d/home/puven/Pictures/Wallpapers
-	skulls.png
-5
-d/home/puven/Documents/Github/GitCooking
-	LICENSE
-2
-d/home/puven
-	keyboardsettings-BIGcannons-withMEC.blk
-8
-d/tmp
-	.X11-unix
-3
-d/tmp/.X11-unix
-	..
-0
-d/home/puven/Documents/Github/vifm-colors
-	test_Directory
-2
-d/home/puven/Documents/Github/vifm-colors/test_Directory
-	test_Directory
-1
-d/home/puven/Documents/Github/vifm-colors/test_Directory/test_Directory
-	test_source_link
-1
-d/home/puven/Documents/Github/vifm-colors/test_Directory
-	test_Directory
-1
-d/home/puven
-	Documents
+	kali-linux-light-2018-4-amd64-iso
 4
-d/home/puven/Documents
-	Github
-2
-d/home/puven/Documents/Github
-	vifm-colors
-15
-d/home/puven/Documents/Github/vifm-colors
-	test_Directory
-2
-d/home/puven/Documents/Github/vifm-colors/test_Directory
-	test_Directory
+d/home/puven
+	.AMD
 1
+d/home/puven/.AMD
+	GLCache
+1
+d/home/puven/.AMD/GLCache
+	91fab294f0e55ec0_25.idx
+28
+d/home/puven/.AMD
+	GLCache
+1
+d/home/puven
+	backup
+31
 d/home/puven/Downloads
-	719710-73d047f0a3ffc35f0655488547e7f24fa3f04ea6.zip
-36
-d/home/puven/.config/vifm/colors
-	3024-day.vifm
-5
-d/home/puven/.config/vifm
-	colors
-2
-d/home/puven/.config
-	vifm
-27
-d/home/puven
-	Documents
-5
-d/home/puven/Documents
-	Github
-10
-d/home/puven/Documents/Github
-	vifm-colors
-16
-d/home/puven/Documents/Github/vifm-colors
-	test_Directory
-1
-d/home/puven/Downloads
-	719710-73d047f0a3ffc35f0655488547e7f24fa3f04ea6.zip
-6
-d/home/puven/Documents
-	crackstation.txt.gz
-5
-d/home/puven/Videos/MasterClass - Wolfgang Puck - Cooking
-	03 - Recipe Tuna Sashimi.mp4
-9
-d/home/puven/Videos
-	MasterClass - Wolfgang Puck - Cooking
-5
-d/home/puven/Videos/MasterClass - Wolfgang Puck - Cooking
-	03 - Recipe Tuna Sashimi.mp4
-9
-d/home/puven/Videos
-	The Big Bang Theory
-3
-d/home/puven
-	Videos
+	kali-linux-light-2018-4-amd64-iso
 4
-d/home/puven/Videos
-	MasterClass - Wolfgang Puck - Cooking
-5
-d/home/puven/Videos/MasterClass - Wolfgang Puck - Cooking
-	05 - Recipe Pepper Steak.mp4
-9
-d/home/puven
-	Videos
-4
-d/home/puven/Videos
-	MasterClass - Wolfgang Puck - Cooking
-5
-d/home/puven/Videos/MasterClass - Wolfgang Puck - Cooking
-	05 - Recipe Pepper Steak.mp4
-11
-d/home/puven
-	.config
-15
-d/home/puven/.config
-	i3
-19
-d/home/puven/.config/i3
-	..
-0
-d/var/lib/apt/lists
-	partial
-2
-d/var/lib/apt/lists/partial
-	..
-0
-d/var/lib/apt/lists
-	partial
-2
-d/var/lib/apt/lists/partial
-	..
-0
-d/var/lib/apt/lists
-	auxfiles
-1
-d/var/lib/apt/lists/auxfiles
-	..
-0
-d/var/lib/apt/lists
-	ppa.launchpad.net_nilarimogard_webupd8_ubuntu_dists_bionic_InRelease
-4
-d/home/puven/.config
-	i3
-32
-d/home/puven/.config/i3
-	i3blocks.conf
-2
-d/home/puven
-	Documents
-32
-d/home/puven/Documents
-	Github
-4
-d/home/puven/Documents/Github
-	JS-cheatsheet
-5
-d/home/puven/Documents/Github/JS-cheatsheet
-	javascript-cheatsheet.tex
-7
-d/home/puven/test
-	..
-0
-d/home/puven/Documents/Github/bash/test
-	Directory
-1
-d/home/puven/Documents/Github/bash/test/Directory
-	..
-0
-d/home/puven/Documents/Github/bash/test
-	Directory
-1
-d/home/puven/Documents/Github/bash/test/Directory
-	..
-0
-d/home/puven/Documents
-	ISO
-5
-d/home/puven/Documents/ISO
-	kali-linux-light-2018.4-amd64.iso
-3
-d/home/puven/Documents
-	ISO
-5
-d/home/puven/Documents/ISO
-	kali-linux-light-2018.4-amd64.iso
-3
-d/home/puven/.irssi
-	config~
-3
 d
 
 # Right window history (oldest to newest):
@@ -336,8 +336,32 @@ D/root
 	..
 0
 D/
-	bin
+	home
+5
+D/home
+	puven
+1
+D/home/puven
+	Documents
+3
+D/home/puven/Documents
+	Github
+2
+D/home/puven/Documents/Github
+	GitCooking
+1
+D/home/puven/Documents/Github/GitCooking
+	All
+1
+D/home/puven/Documents/Github/GitCooking/All
+	img
+1
+D/home/puven/Documents/Github/GitCooking/All/img
+	..
 0
+D/home/puven/Documents/Github/GitCooking/All
+	SpaghettiPuttanesca.md
+2
 D
 
 # Command line history (oldest to newest):
@@ -366,6 +390,11 @@ D
 :help
 :sort %d
 :sort
+:ftp
+:connect
+:vifm gnu.ftp
+:h
+:mkdir img
 :wq
 :q
 
@@ -377,6 +406,12 @@ D
 /.config
 /lock
 /D
+/gpg"
+/wha
+/What
+/informatik
+/amdgpu
+/amd
 
 # Prompt history (oldest to newest):
 pdiviyah
@@ -384,11 +419,14 @@ pdiviyah.js
 pskulls.png
 pFreeBSD
 pFreeBSD.iso
+pPuttanesca1.jpeg
+pSpaghettiPuttanesca2.jpeg
+pPuttanesca2.jpeg
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/puven/.local/share/vifm/Trash/000_FreeBSD.iso
+""/home/puven/.local/share/vifm/Trash/001_custom
 
 # Directory stack (oldest to newest):
 
@@ -419,6 +457,50 @@ t/home/puven/.local/share/vifm/Trash/000_wget-log
 	/home/puven/Documents/ISO/wget-log
 t/home/puven/.local/share/vifm/Trash/000_FreeBSD.iso
 	/home/puven/Documents/ISO/FreeBSD.iso
+t/home/puven/.local/share/vifm/Trash/000_Gardening For Dummies Three e-book Bundle - Growing Your Own Fruit and Veg For Dummies, Composting For Dummies and Storing and Preserving Garden Produce For Dummies
+	/home/puven/Documents/Gardening For Dummies Three e-book Bundle - Growing Your Own Fruit and Veg For Dummies, Composting For Dummies and Storing and Preserving Garden Produce For Dummies
+t/home/puven/.local/share/vifm/Trash/000_Learn Python The Hard Way 3rd Edition V413HAV
+	/home/puven/Documents/Learn Python The Hard Way 3rd Edition V413HAV
+t/home/puven/.local/share/vifm/Trash/000_Plumbing Do-It-Yourself For Dummies Easy-to-follow, detailed instructions and hundreds of photos and illustrations guide you through each task
+	/home/puven/Documents/Plumbing Do-It-Yourself For Dummies Easy-to-follow, detailed instructions and hundreds of photos and illustrations guide you through each task
+t/home/puven/.local/share/vifm/Trash/000_The Laws of Human Nature by Robert Greene
+	/home/puven/Documents/The Laws of Human Nature by Robert Greene
+t/home/puven/.local/share/vifm/Trash/000_The New York Times Best Sellers - March 24, 2019 [ePub]
+	/home/puven/Documents/The New York Times Best Sellers - March 24, 2019 [ePub]
+t/home/puven/.local/share/vifm/Trash/000_Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.epub
+	/home/puven/Documents/Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.epub
+t/home/puven/.local/share/vifm/Trash/000_Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.jpg
+	/home/puven/Documents/Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.jpg
+t/home/puven/.local/share/vifm/Trash/000_Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.mobi
+	/home/puven/Documents/Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.mobi
+t/home/puven/.local/share/vifm/Trash/000_Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.opf
+	/home/puven/Documents/Learn C the Hard Way_ Practical Exercises on the Computational Subjects You Keep Avoiding (Like C) (Brianne Kwasny's Library) - Zed A. Shaw.opf
+t/home/puven/.local/share/vifm/Trash/000_LearnCtheHardWay.epub
+	/home/puven/Documents/LearnCtheHardWay.epub
+t/home/puven/.local/share/vifm/Trash/000_Raspberry Pi For Dummies, 3rd Edition.pdf
+	/home/puven/Documents/Raspberry Pi For Dummies, 3rd Edition.pdf
+t/home/puven/.local/share/vifm/Trash/000_Bike Repair and Maintenance For Dummies_.pdf
+	/home/puven/Documents/Bike Repair and Maintenance For Dummies_.pdf
+t/home/puven/.local/share/vifm/Trash/000_Puttanesca1.jpeg
+	/home/puven/Documents/Github/GitCooking/All/Puttanesca1.jpeg
+t/home/puven/.local/share/vifm/Trash/000_Puttanesca2.jpeg
+	/home/puven/Documents/Github/GitCooking/All/Puttanesca2.jpeg
+t/home/puven/.local/share/vifm/Trash/000_puttanesca.jpeg
+	/home/puven/Documents/Github/GitCooking/All/SpaghettiPuttanesca/img/puttanesca.jpeg
+t/home/puven/.local/share/vifm/Trash/000_F1 2017
+	/home/puven/.steam/.steam/steam/steamapps/common/F1 2017
+t/home/puven/.local/share/vifm/Trash/000_Jay Fighter Remastered
+	/home/puven/.steam/.steam/steam/steamapps/common/Jay Fighter Remastered
+t/home/puven/.local/share/vifm/Trash/000_War Thunder
+	/home/puven/.steam/.steam/steam/steamapps/common/War Thunder
+t/home/puven/.local/share/vifm/Trash/000_Transmissions Element 120
+	/home/puven/.steam/.steam/steam/steamapps/common/Transmissions Element 120
+t/home/puven/.local/share/vifm/Trash/000_Team Fortress 2
+	/home/puven/.steam/.steam/steam/steamapps/common/Team Fortress 2
+t/home/puven/.local/share/vifm/Trash/000_custom
+	/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/insurgency/custom
+t/home/puven/.local/share/vifm/Trash/001_custom
+	/home/puven/.steam/.steam/steam/steamapps/common/insurgency2/insurgency/custom
 
 # State:
 f
