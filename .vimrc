@@ -17,7 +17,8 @@
 call plug#begin('~/.vim/plugged')
 	Plug 'junegunn/goyo.vim'
 	Plug 'airblade/vim-gitgutter'
-	Plug 'xuhdev/vim-latex-live-preview'
+	Plug 'tpope/vim-surround'
+	Plug 'tpope/vim-repeat'
 call plug#end()
 
 "cursor changes according to mode
@@ -38,8 +39,10 @@ syntax on
 set number relativenumber
 set wrapmargin=8
 colorscheme iceberg
-set tabstop=4
+set tabstop=2
+set shiftwidth=2
 set timeoutlen=2000
+set laststatus=2
 "
 "My custom Vimscripts
 let mapleader=","	"Leader key is ,
@@ -48,6 +51,12 @@ let mapleader=","	"Leader key is ,
 nnoremap <leader>ev :split $MYVIMRC<cr>
 "Sourcing the shit out of that .vimrc
 nnoremap <leader>sv :source $MYVIMRC<cr>
+"Opening Terminal
+nnoremap <leader>t :term<cr>
+
+" Copy selected text to system clipboard:
+	vnoremap <C-c> "+y
+	map <C-p> "+P
 
 "Navigating with guides
 inoremap <leader><leader> <Esc>/<++><Enter>"_c4l
@@ -77,23 +86,23 @@ inoremap <c-a> <Esc>gg^vG$
 onoremap <c-a> :<c-u>normal! gg^vG$<cr>
 
 " operator in next parentheses
-onoremap in( :<c-u>normal! f(vi(<cr>
+"onoremap in( :<c-u>normal! f(vi(<cr>
 " operator in last parentheses
-onoremap il( :<c-u>normal! F(vi(<cr>
+"onoremap il( :<c-u>normal! F(vi(<cr>
 " operator around next parentheses
-onoremap an( :<c-u>normal! f(va(<cr>
+"onoremap an( :<c-u>normal! f(va(<cr>
 " operator around last parentheses
-onoremap al( :<c-u>normal! F(va(<cr>
+"onoremap al( :<c-u>normal! F(va(<cr>
 
 " operator in next curly brackets
-onoremap in{ :<c-u>normal! f{vi{<cr>
-" operator in last curly brackets
-onoremap il{ :<c-u>normal! F{vi{<cr>
-" operator around next curly brackets
-onoremap an{ :<c-u>normal! f{va{<cr>
-" operator around last curly brackets
-onoremap al{ :<c-u>normal! F{va{<cr>
-
+"onoremap in{ :<c-u>normal! f{vi{<cr>
+"" operator in last curly brackets
+"onoremap il{ :<c-u>normal! F{vi{<cr>
+"" operator around next curly brackets
+"onoremap an{ :<c-u>normal! f{va{<cr>
+"" operator around last curly brackets
+"onoremap al{ :<c-u>normal! F{va{<cr>
+"
 "Code Snippets
 ""Bash
 augroup filetype_bash
@@ -111,16 +120,32 @@ augroup filetype_bash
 		autocmd Filetype sh inoremap ,( $((<space><++><space>))<Esc>^
 		autocmd Filetype sh inoremap ,{ {<space><++><space>}<Esc>^
 augroup END
-"
-" Markdown
+""
+"" Markdown
 augroup filetype_markdown
 		autocmd!
 		" operator inside Heading 1
 		autocmd Filetype markdown onoremap iH :<c-u>execute "normal! ?^==\\+$\r:nohlsearch\rkvg_"<cr>
-		" operator around Heading 1
+		"" operator around Heading 1
 		autocmd Filetype markdown onoremap aH :<c-u>execute "normal! ?^==\\+$\r:nohlsearch\rg_vk0"<cr>
-		" operator inside Heading 2
+		"" operator inside Heading 2
 		autocmd Filetype markdown onoremap ih :<c-u>execute "normal! ?^--\\+$\r:nohlsearch\rkvg_"<cr>
 		" operator around Heading 2
 		autocmd Filetype markdown onoremap ah :<c-u>execute "normal! ?^--\\+$\r:nohlsearch\rg_vk0"<cr>
+augroup END
+""
+"" CPlusPlus
+""augroup filetype_cpp
+""				autocmd!
+""				autocmd BufWritePost *.cpp :! g++ % -o %:r && ./%:r
+""augroup END
+""
+"" stage current file to git
+nnoremap <leader>ga :! git add %<cr>
+""
+"" Latex
+augroup filetype_tex
+				autocmd!
+				autocmd BufWritePost *.tex :! pdflatex -output-directory .. -jobname NXCCheatsheet main.tex
+				autocmd Filetype tex inoremap ,env <Bslash>begin{<++>}<cr><Tab><++><cr><Bslash>end{<++>}<Esc>2k^
 augroup END
