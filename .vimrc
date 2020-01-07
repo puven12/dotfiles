@@ -135,10 +135,12 @@ augroup filetype_markdown
 augroup END
 ""
 "" CPlusPlus
-""augroup filetype_cpp
-""				autocmd!
-""				autocmd BufWritePost *.cpp :! g++ % -o %:r && ./%:r
-""augroup END
+augroup filetype_cpp
+				autocmd!
+				autocmd Filetype cpp nnoremap <leader>m :! make<cr>
+				autocmd Filetype cpp nnoremap <leader>mc :! make clean<cr>
+				autocmd Filetype cpp nnoremap <leader>em :o makefile<cr>
+augroup END
 ""
 "" stage current file to git
 nnoremap <leader>ga :! git add %<cr>
@@ -146,6 +148,6 @@ nnoremap <leader>ga :! git add %<cr>
 "" Latex
 augroup filetype_tex
 				autocmd!
-				autocmd BufWritePost *.tex :! pdflatex -output-directory .. -jobname NXCCheatsheet main.tex
+				autocmd BufWritePost *.tex :! pdflatex -output-directory %:p:h -jobname %:h main.tex
 				autocmd Filetype tex inoremap ,env <Bslash>begin{<++>}<cr><Tab><++><cr><Bslash>end{<++>}<Esc>2k^
 augroup END
