@@ -1,4 +1,4 @@
-" vim: filetype=vifm :
+" vim: filetype=vim :
 " Sample configuration file for vifm (last updated: 21 January, 2018)
 " You can edit this file by hand.
 " The " character at the beginning of a line comments out the line.
@@ -59,7 +59,7 @@ set novimhelp
 " If you would like to run an executable file when you
 " press return on the file name set this.
 
-set norunexec
+set runexec
 
 " Selected color scheme
 
@@ -424,10 +424,10 @@ nnoremap I cw<c-a>
 nnoremap cc cw<c-u>
 nnoremap A cw
 
-" Open editor to edit vifmrc and apply settings after returning to vifm
-nnoremap ,c :write | edit $MYVIFMRC | restart<cr>
 " Open vim to edit vifmrc
-nnoremap ,C :!vim --remote-tab-silent $MYVIFMRC &<cr>
+nnoremap ,ev :!vim --remote-tab-silent $MYVIFMRC &<cr>
+" Source vifmrc
+nnoremap ,sv :source /home/puven/.config/vifm/vifmrc
 
 " Toggle wrap setting on ,w key
 nnoremap ,w :set wrap!<cr>

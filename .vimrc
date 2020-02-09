@@ -19,6 +19,7 @@ call plug#begin('~/.vim/plugged')
 	Plug 'airblade/vim-gitgutter'
 	Plug 'tpope/vim-surround'
 	Plug 'tpope/vim-repeat'
+	Plug 'bfrg/vim-cpp-modern'
 call plug#end()
 
 "cursor changes according to mode
@@ -26,12 +27,13 @@ if has("autocmd")
   au VimEnter,InsertLeave * silent execute '!echo -ne "\e[1 q"' | redraw!
   au InsertEnter,InsertChange *
     \ if v:insertmode == 'i' |
-    \   silent execute '!echo -ne "\e[5 q"' | redraw! |
+    \   silent execute '!echo -ne l"\e[5 q"' | redraw! |
     \ elseif v:insertmode == 'r' |
-    \   silent execute '!echo -ne "\e[3 q"' | redraw! |
+    \   silent execute '!echo -ne l"\e[3 q"' | redraw! |
     \ endif
-  au VimLeave * silent execute '!echo -ne "\e[ q"' | redraw!
+  au VimLeave * silent execute '!echo -ne l"\e[ q"' | redraw!
 endif
+"set gcr=set gcr=n-v-c:block-Cursor/lCursor,ve:ver35-Cursor,o:hor50-Cursor,i-ci:ver25-Cursor/lCursor,r-cr:hor20-Cursor/lCursor,sm:block-Cursor-blinkwait175-blinkoff150-blinkon175
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
@@ -148,6 +150,7 @@ nnoremap <leader>ga :! git add %<cr>
 "" Latex
 augroup filetype_tex
 				autocmd!
-				autocmd BufWritePost *.tex :! pdflatex -output-directory %:p:h -jobname %:h main.tex
 				autocmd Filetype tex inoremap ,env <Bslash>begin{<++>}<cr><Tab><++><cr><Bslash>end{<++>}<Esc>2k^
+				autocmd Filetype tex nnoremap <leader>m :! latexmk -pdf -pv main.tex<cr>
+				autocmd Filetype tex nnoremap <leader>mc :! latexmk -c<cr>
 augroup END
